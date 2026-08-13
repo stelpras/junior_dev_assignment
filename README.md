@@ -22,7 +22,8 @@ Player
 public: name , score_point (here is pointless since umpire decides so I think I will delete it in the implementation)
 
 Umpire
-annouyncePoint (), rmemberScore() , endGame()
+public: announcePoint (), endGame() (those are needed in our programm so they remain public, I do think that's correct but the programm can't function otherwise)
+private: rememberScore()
 
 There are 4 differt scores. (0 , 15 , 30 ,40).
 
