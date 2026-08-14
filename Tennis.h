@@ -6,7 +6,7 @@ using namespace std;
 
 class Player {
 public:
-    explicit Player(const string& name);
+    Player(const string& name);
     const string& getName() const;
 
 private:
@@ -26,4 +26,9 @@ public:
 
 private:
     void rememberScore(const string& playerName);
+
+    Player player1;
+    Player player2;
+    int player1Points = 0;
+    int player2Points = 0;
 };
